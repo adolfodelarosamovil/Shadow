@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:id = "@+id/parent"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity"
+    android:gravity = "center"
+    android:orientation = "vertical">
+    <TextView
+        android:id = "@+id/text"
+        android:text="Android"
+        android:textSize = "28sp"
+        android:textAlignment = "center"
+        android:textColor = "#FFF"
+        android:layout_width = "match_parent"
+        android:shadowColor = "#000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:shadowRadius = "1"
+        android:layout_height = "wrap_content" />
+</LinearLayout>
